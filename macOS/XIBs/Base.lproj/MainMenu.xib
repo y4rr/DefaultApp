@@ -12,12 +12,6 @@
         </customObject>
         <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
         <customObject id="-3" userLabel="Application" customClass="NSObject"/>
-        <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="DefaultApp" customModuleProvider="target">
-            <connections>
-                <outlet property="checkForUpdatesMenuItem" destination="cyl-PD-5vU" id="DgQ-Pa-9dj"/>
-                <outlet property="statusBarMenu" destination="lIL-ob-yMK" id="oa7-Wn-HTr"/>
-            </connections>
-        </customObject>
         <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
         <menu title="Main Menu" systemMenu="main" id="AYu-sK-qS6">
             <items>
@@ -29,12 +23,6 @@
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <connections>
                                     <action selector="orderFrontStandardAboutPanel:" target="-1" id="Exp-CZ-Vem"/>
-                                </connections>
-                            </menuItem>
-                            <menuItem title="Check For Updates..." id="cyl-PD-5vU">
-                                <modifierMask key="keyEquivalentModifierMask"/>
-                                <connections>
-                                    <action selector="checkForUpdates:" target="Voe-Tx-rLC" id="TZR-0b-hSq"/>
                                 </connections>
                             </menuItem>
                             <menuItem isSeparatorItem="YES" id="VOq-y0-SEH"/>
